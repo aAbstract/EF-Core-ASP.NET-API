@@ -1,0 +1,15 @@
+version: '3'
+
+services:  
+  database_node:
+    image: 'mcr.microsoft.com/mssql/server'
+    ports:
+      - '1433:1433'
+    environment:
+      ACCEPT_EULA: 'Y'
+      SA_PASSWORD: 'p@55word'
+    volumes:
+      - mssql_db:/home/abstract/mssql_data
+
+volumes:
+  mssql_db:

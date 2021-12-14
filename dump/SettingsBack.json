@@ -1,0 +1,16 @@
+{
+    "ConnectionStrings": {
+      "DevDb": "Server=127.0.0.1;Database=db_api_test;User Id=SA;Password=p@55word;"
+    },
+    "JWT": {
+      "KEY": "4uaV7Y7xJsi5SIq6oqIr0aAkasrUN4e438qcEEqyiU1JaHm3jX7YnEdS33wWILTa"
+    },
+    "Logging": {
+      "LogLevel": {
+        "Default": "Information",
+        "Microsoft.AspNetCore": "Warning"
+      }
+    },
+    "AllowedHosts": "*"
+  }
+  
